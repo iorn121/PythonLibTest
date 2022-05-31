@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body>
+    <py-env>
+      - requests
+      - matplotlib
+      - numpy
+    </py-env>
+
+    <py-script>
+      <!-- import requests
+      url = "https://umayadia-apisample.azurewebsites.net/api/persons/Shakespeare"
+      payload = {}
+
+      r = requests.get(url, params=payload)
+      print(r) -->
+      <!-- import sys
+      print(sys.version) -->
+      <!-- x=input('input x')
+      print('x: ',x)
+      y=input('input y')
+      print('y: ',y)
+      z=int(x)*int(y)
+      print(z)
+      if z%2==0:
+        print(True) -->
+      import matplotlib.pyplot as plt
+      import numpy as np
+      x=np.linspace(0,1,100)
+      y=x**2
+      fig=plt.figure(facecolor="azure",edgecolor="black",linewidth=2)
+      ax=fig.add_subplot(1,1,1)
+      ax.plot(x,y)
+      fig
+
+    </py-script>
+  </body>
+</html>
