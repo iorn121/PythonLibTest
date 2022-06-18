@@ -13,6 +13,9 @@ class Cat:
         self.name =name
 
 
+cat=Cat('Kuro')
+print(cat.name)
+
 @document_it
 def sum(a,b):
     return a+b
