@@ -1,0 +1,11 @@
+width: (1,)
+height: (1,)
+bit_depth: (8,)
+color_type: (2,)
+compression: (0,)
+filter_method: (0,)
+interlace: (0,)
+crc: (2423739358,)
+length: (12,)
+ctype: (b'IDAT',)
+idata: b'\x00\x00\x00\x00'
